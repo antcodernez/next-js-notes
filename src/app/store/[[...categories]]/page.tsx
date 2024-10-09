@@ -5,11 +5,8 @@ interface CategoryProps {
     }
 }
 
-export default function Category(props: CategoryProps) {
-    console.log(props);
-    
+export default function Category(props: CategoryProps) {    
     const { categories } = props.params;
-
     return (
             <div>
                 {categories && <div>Category: {categories}</div>}
