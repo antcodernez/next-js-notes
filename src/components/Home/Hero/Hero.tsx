@@ -1,12 +1,11 @@
-import styles from "./Hero.module.css";
+import styles from "./Hero.module.sass";
 
 export const Hero = () => {
-    console.log(styles);
     
     return (
-        <section className="section">
-            <h1 className={styles.hero}>Hero</h1>
-            <h2>Hola xd</h2>
+        <section className={styles.Hero}>
+          <h1>Silk Road</h1>
+          <h2>The best drug store in the deepweb 💀</h2>
         </section>
-    )
+      )
 }
