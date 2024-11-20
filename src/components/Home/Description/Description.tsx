@@ -20,7 +20,7 @@ export const Description = () => {
                     fill
                     placeholder="blur"
                     blurDataURL={bluredURL}
-                    onClick={ () => handleCLick()}
+                    onClick={handleCLick}
                     style={{
                         border: hasBorder ? 'solid 5px purple' : 'none' 
                     }}
